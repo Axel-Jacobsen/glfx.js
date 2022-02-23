@@ -112,7 +112,7 @@
 
   // Get a WebGL context
   try {
-    var gl = document.createElement('canvas').getContext('experimental-webgl');
+    var gl = document.createElement('canvas').getContext('webgl2');
   } catch (e) {
   }
 
